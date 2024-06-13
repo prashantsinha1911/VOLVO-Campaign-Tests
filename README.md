@@ -12,14 +12,14 @@
 
 To run tests locally, use:
 
-npm test
+`npm test`
 
 
 ### With Docker
 
 To run tests with Docker, use:
 
-docker-compose up --build
+`docker-compose up --build`
 
 ## Reporting
 
