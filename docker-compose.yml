@@ -1,0 +1,15 @@
+services:
+  selenium:
+    image: seleniarm/standalone-chromium
+    ports:
+      - "4444:4444"
+
+  tests:
+    build: .
+    volumes:
+      - .:/app
+    depends_on:
+      - selenium
+    environment:
+      - WDIO_SELENIUM_ADDRESS=selenium
+      - WDIO_SELENIUM_PORT=4444
