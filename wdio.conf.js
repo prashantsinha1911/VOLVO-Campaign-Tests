@@ -10,10 +10,16 @@ exports.config = {
         // 'path/to/excluded/files'
     ],
     maxInstances: 5,
-    capabilities: [{
-        maxInstances: 5,
-        browserName: 'chrome',
-    }],
+    capabilities: [
+        {
+            maxInstances: 1,
+            browserName: 'chrome',
+        },
+        {
+            maxInstances: 1,
+            browserName: 'firefox',
+        },
+    ],
     logLevel: 'info',
     bail: 0,
     baseUrl: 'http://localhost',

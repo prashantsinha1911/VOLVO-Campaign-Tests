@@ -12,23 +12,17 @@
 
 To run tests locally, use:
 
-```bash
-npx wdio run wdio.conf.js
-```
+npm test
+
 
 ### With Docker
 
 To run tests with Docker, use:
 
-```bash
 docker-compose up --build
-```
 
 ## Reporting
 
 Allure reports can be generated with:
 
-```bash
-allure generate allure-results --clean
-allure open
-```
+npm test will take care of the reports as well

@@ -1,0 +1,39 @@
+# Node.js / NPM
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# WebDriverIO
+.allure/
+
+# macOS
+.DS_Store
+
+# JetBrains IDEs
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Allure test reports
+allure-results/
+
+# Temporary files
+.tmp/
+
+# Ignore environment file (if used)
+.env
+
+# Ignore compiled files
+*.min.js
+*.min.css
+
+# Ignore package-lock.json for npm
+package-lock.json
